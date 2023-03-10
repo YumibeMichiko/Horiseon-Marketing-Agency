@@ -8,7 +8,9 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+/* remove .header class and replace it with the "header" element */
+
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -23,8 +25,9 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
+/* removed header div and replace t with "nav" element */
 
-.header div {
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +35,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -47,7 +50,7 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .hero {
@@ -74,8 +77,8 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
-.benefits {
+/*replace .benefits class with the "aside" element for proper SEO readability */
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -85,6 +88,8 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+
+/* removed this section due to repetitive declarations, merged all in ".benefits" class
 
 .benefit-lead {
     margin-bottom: 32px;
@@ -133,6 +138,24 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+*/
+
+.benefits {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* removed this section due to repetitive declarations, merged all in ".card" class
 
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -187,14 +210,31 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+*/
 
-.footer {
+.card {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+.card img {
+    max-height: 200px;
+}
+.card h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* remove .footer class and replace it with "footer" element */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }

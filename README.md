@@ -19,4 +19,4 @@ GIVEN a webpage meets accessibility standards
 * WHEN I view the title element
 * THEN I find a concise, descriptive title
 
-<img src="./develop/assets/images/IMG_0702.jpeg" class="float-center"/>
+<img src="./develop/assets/images/IMG_0702.jpeg"/>

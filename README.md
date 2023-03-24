@@ -19,4 +19,4 @@ GIVEN a webpage meets accessibility standards
 * WHEN I view the title element
 * THEN I find a concise, descriptive title
 
-https://github.com/YumibeMichiko/horiseon-marketing-agency/blob/main/Develop/assets/images/IMG_0702.jpeg
+![Screenshot](./assets/images/IMG_0702.jpeg)
